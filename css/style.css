@@ -1,0 +1,75 @@
+
+/*---------- Configuration générale ----------*/
+@import url('https://fonts.googleapis.com/css?family=Delius');
+
+body, html{
+	margin: 0;
+	padding: 0;
+	font-family: "Delius", Consolas, sans-serif;
+	background-color : #f4f4f4;
+}
+a:hover{
+	text-decoration: none;
+}
+
+ul{
+	margin: 0px;
+	list-style-type: none;
+	color : white;
+}
+
+/*------------- Message d'acceuil -------------*/
+.salutation{
+	padding: 20px;
+	font-size: 40px;
+}
+
+/*------------- Menu de navigation -------------*/
+.lien-nav{
+	padding : 18px 10px;
+	margin : 0px 1px;
+	color: rgba(255, 255, 255, 0.3);
+}
+.lien-nav:hover, .active{
+	color: rgb(255, 255, 255);
+}
+
+/*------------- Eclairer les textes -----------*/
+.effet-survol{
+	color: rgba(255, 255, 255, 0.3);
+}
+.effet-survol:hover{
+	color: rgb(255, 255, 255);
+}
+
+/*-------- Presentation, photo, texte, --------*/
+.main-div{
+	margin-top : 40px;
+}
+.presentation{
+	width: 50%;
+	margin: 0px auto;
+	color: #212529;
+	font-size: 20px;
+	font-family: "Delius";
+}
+
+img{
+	width: 200px;
+	height: 200px;
+}
+
+.ma-photo{
+	text-align: center;
+}
+
+
+/*------------- Footer -----------*/
+
+footer{
+	padding: 30px 30px;
+}
+
+.col-sm-6 ul li{
+	border-bottom : 1px dotted white;
+}
