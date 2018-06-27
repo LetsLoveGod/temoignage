@@ -62,10 +62,14 @@ img{
 .ma-photo{
 	text-align: center;
 }
-
+/*-----------------------*/
+.twitter-include{
+	display: block;
+	height : 50px;
+	font-family: "Delius";
+}
 
 /*------------- Footer -----------*/
-
 footer{
 	padding: 30px 30px;
 }
