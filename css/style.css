@@ -2,25 +2,11 @@
 /*---------- Configuration générale ----------*/
 @import url('https://fonts.googleapis.com/css?family=Delius|Kavivanar');
 
-html{
-	min-height: 100%;
-	font-family: "Delius", Consolas, sans-serif;
-	background-color : #f4f4f4;
-	position: relative;
-}
-body{
+html, body{
 	font-family: "Delius", Consolas, sans-serif;
 	background-color : #f4f4f4;
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: auto; 
-  line-height: all;
-  padding-bottom: 10px;
-  padding-top : 10px;
-}
+
 a:hover{
 	text-decoration: none;
 }
