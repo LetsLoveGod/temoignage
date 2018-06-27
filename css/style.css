@@ -70,13 +70,8 @@ ul{
 	margin: 0px auto;
 }
 
-img{
-	width: 200px;
-	height: 200px;
-}
-
-.ma-photo{
-	text-align: center;
+#premiere-partie{
+	color : #222;
 }
 /*-----------------------*/
 .contacts{
