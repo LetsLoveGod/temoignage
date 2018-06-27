@@ -1,6 +1,6 @@
 
 /*---------- Configuration générale ----------*/
-@import url('https://fonts.googleapis.com/css?family=Delius');
+@import url('https://fonts.googleapis.com/css?family=Delius|Kavivanar');
 
 html{
 	min-height: 100%;
@@ -9,16 +9,17 @@ html{
 	position: relative;
 }
 body{
-	margin-bottom: 60px;
 	font-family: "Delius", Consolas, sans-serif;
+	background-color : #f4f4f4;
 }
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px; /* Set the fixed height of the footer here */
-  line-height: 60px; /* Vertically center the text there */
-  background-color: #f5f5f5;
+  height: auto; 
+  line-height: all;
+  padding-bottom: 10px;
+  padding-top : 10px;
 }
 a:hover{
 	text-decoration: none;
@@ -55,10 +56,6 @@ ul{
 }
 
 /*-------- Presentation, photo, texte, --------*/
-.main-div{
-	position: relative;
-	top : 20px;
-}
 
 .presentation{
 	width: 50%;
@@ -66,6 +63,11 @@ ul{
 	color: #212529;
 	font-size: 20px;
 	font-family: "Delius";
+}
+
+.presentation-testi{
+	width: 50%;
+	margin: 0px auto;
 }
 
 img{
