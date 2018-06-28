@@ -56,8 +56,9 @@ ul{
 	margin: 0px auto;
 }
 
-#premiere-partie{
+.partie{
 	color : #222;
+	opacity: 0.9;
 }
 /*-----------------------*/
 .contacts{
