@@ -71,12 +71,12 @@ footer{
 
 /* ----------------- Media Queries ----------------- */
 @media(max-width: 900px){
-	header .lien-nav{
+	.lien-nav{
 		padding : 18px 2px;
 		margin : 0px 1px;
 		color: rgba(255, 255, 255, 0.3);
 	}
-	header .lien-nav:hover, .active{
+	.lien-nav:hover, .active{
 		color: rgb(255, 255, 255);
 	}
 	.presentation-testi, .presentation{
@@ -120,6 +120,14 @@ footer{
 		width: 100%;
 		margin: 10px auto;
 	}
+	.lien-nav{
+		padding : 18px 10px;
+		margin : 0px 1px;
+		color: rgba(255, 255, 255, 0.3);
+	}
+	.lien-nav:hover, .active{
+		color: rgb(255, 255, 255);
+	}
 }
 
 @media(max-width: 240px){
@@ -128,5 +136,13 @@ footer{
 	}
 	header{
 		margin-bottom : 20px;
+	}
+	.lien-nav{
+		padding : 18px 10px;
+		margin : 0px 1px;
+		color: rgba(255, 255, 255, 0.3);
+	}
+	.lien-nav:hover, .active{
+		color: rgb(255, 255, 255);
 	}
 }
