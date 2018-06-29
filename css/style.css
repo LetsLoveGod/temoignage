@@ -71,7 +71,6 @@ footer{
 
 /* ----------------- Media Queries ----------------- */
 @media(max-width: 900px){
-	
 	header .lien-nav{
 		padding : 18px 2px;
 		margin : 0px 1px;
@@ -88,7 +87,7 @@ footer{
 @media(max-width: 550px){
 	header{
 		z-index: 2000;
-		margin-bottom: 150px; 
+		margin-bottom: 200px; 
 	}
 
 	header ul li{
