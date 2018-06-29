@@ -48,7 +48,7 @@ header{
 }
 
 .presentation-testi{
-	width: 70%;
+	width: 60%;
 	margin: 0px auto;
 }
 
@@ -80,7 +80,8 @@ footer{
 		color: rgb(255, 255, 255);
 	}
 	.presentation-testi, .presentation{
-		width: 60%;
+		display: block;
+		width: 80%;
 	}
 }
 
