@@ -7,6 +7,9 @@ html, body{
 	background-color : #f4f4f4;
 	box-sizing: border-box;
 	word-break: break-word;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 a:hover{
